@@ -1,10 +1,10 @@
 body {
-width 100%;
+width: 100%;
 height: 100%;
 padding: 0;
 margin: 0px;
 font-size: 24px;
-background-color: #f0edf2;
+background-color: #eae7dc;
 }
 
 p {
@@ -16,7 +16,7 @@ p {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #112d32;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -51,13 +51,27 @@ li a {
 	background-color: #4CAF50;
 }
 */
+.center {
+	display: block;
+  	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+figure {
+    display: inline-block;
+    border: 1px solid gray;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+}
+
+
 .slider {
 	overflow: hidden;
-	/*width: 800px;
-	background: url(1.jpg);
-	margin: 100px auto;
-	animation: slide 20s infinite;
-	*/
 	height: 600px;
 	
 }
@@ -243,14 +257,13 @@ table, th, td {
 
 footer {
 	width: 100%;
-	background-color: black;
+	background-color: #112d32;
 	padding: 30px 0px;
 	color: white;
 	text-align: center;
 }
 .navbar {
   overflow: hidden;
-  background-color: #333;
   position: fixed;
   bottom: 0;
   width: 100%;
