@@ -30,7 +30,14 @@ p {
 	clear: both;
 	width: 50%;
 }
+.recipes li {
+	margin: 12px 0;
+}
 
+.recipes h3, h4 {
+	margin:2px;
+	padding:0;
+}
 
 .navbar li {
 	float: left;
