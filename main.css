@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    background-color: #F7F7F7;
+    color: white;
+    /*color: #7DA2A9;*/
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+    overflow: hidden;
+
+}
+
+.navbar li {
+    float: left;
+    margin-left: 125px;
+}
+
+.navbar a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 14px 16px;
+}
+
+.navbar a:hover {
+    color: #2795b0;
+}
